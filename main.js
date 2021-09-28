@@ -5,4 +5,6 @@ math.toEight = mathFunction.toEight;
 math.toTwo = mathFunction.toTwo;
 
 // Utils
-r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
+const utilsFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
+utils.math = utilsFunction.math;
+utils.moment = utilsFunction.moment;
