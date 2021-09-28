@@ -1,10 +1,14 @@
 
 // Math 
 const mathFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/math.js');
-math.toEight = mathFunction.toEight;
-math.toTwo = mathFunction.toTwo;
+const toEight = mathFunction.toEight;
+math.toEight = toEight; 
+const toTwo = mathFunction.toTwo;
+math.toTwo = toTwo;
 
 // Utils
 const utilsFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
-utils.math = utilsFunction.math;
-utils.moment = utilsFunction.moment;
+const mathjs = utilsFunction.math;
+utils.math = mathjs;
+const moment = utilsFunction.moment;
+utils.moment = moment;
