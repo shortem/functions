@@ -12,3 +12,4 @@ const mathjs = utilsFunction.math;
 utils.math = mathjs;
 const moment = utilsFunction.moment;
 utils.moment = moment;
+utils.bsapi = require('bsapi.js');
