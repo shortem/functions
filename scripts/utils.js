@@ -1,2 +1,2 @@
-utils.moment = require('moment');
-utils.math = require('mathjs').evaluate;
+exports.moment = require('moment');
+exports.math = require('mathjs').evaluate;
