@@ -5,6 +5,8 @@ const toEight = mathFunction.toEight;
 math.toEight = toEight; 
 const toTwo = mathFunction.toTwo;
 math.toTwo = toTwo;
+const days = mathFunction.days;
+math.days = days;
 
 // Utils
 const utilsFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
