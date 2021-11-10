@@ -18,10 +18,14 @@ function neutral(boolean, number) {
   return console.log('Please provide a number and an option');
 }
 
-function isPrime(num) {
+function isPrime(num = 0) {
   for(var i = 2; i < num; i++)
     if(num % i === 0) return "This isn't a prime number 质数";
   return (num > 1) ? "This is a prime number 质数": "This isn't a prime number 质数";
 }
 
-module.exports = { toEight, toTwo, days, neutral， isPrime }
+function sRoot(num = 0) {
+  return Math.sqrt(num);
+}
+
+module.exports = { toEight, toTwo, days, neutral， isPrime, sRoot }
