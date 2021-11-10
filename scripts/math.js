@@ -28,7 +28,7 @@ function sRoot(num = 0) {
   return Math.sqrt(num);
 }
 
-// 因数
+// 质数
 function primeFactor(n) {
   const factors = [];
   let divisor = 2;
@@ -44,6 +44,7 @@ function primeFactor(n) {
   return factors;
 }
 
+// 因数
 function divisor(num) {
 var divisorsList = [];
 var divisors = (n)=>[...Array(n+1).keys()].slice(1)
