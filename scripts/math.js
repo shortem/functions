@@ -18,4 +18,10 @@ function neutral(boolean, number) {
   return console.log('Please provide a number and an option');
 }
 
-module.exports = { toEight, toTwo, days, neutral }
+function isPrime(num) {
+  for(var i = 2; i < num; i++)
+    if(num % i === 0) return "This isn't a prime number 质数";
+  return (num > 1) ? "This is a prime number 质数": "This isn't a prime number 质数";
+}
+
+module.exports = { toEight, toTwo, days, neutral， isPrime }
