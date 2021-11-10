@@ -56,4 +56,4 @@ var divisors = (n)=>[...Array(n+1).keys()].slice(1)
   divisors(num);
   return divisorsList;
 }
-module.exports = { toEight, toTwo, days, neutral， isPrime, sRoot, primeFactor, divisor }
+module.exports = { toEight, toTwo, days, neutral, isPrime, sRoot, primeFactor, divisor }
