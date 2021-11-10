@@ -28,4 +28,31 @@ function sRoot(num = 0) {
   return Math.sqrt(num);
 }
 
-module.exports = { toEight, toTwo, days, neutral， isPrime, sRoot }
+// 因数
+function primeFactor(n) {
+  const factors = [];
+  let divisor = 2;
+
+  while (n >= 2) {
+    if (n % divisor == 0) {
+    if(!factors.includes(divisor)){  factors.push(divisor); }
+      n = n / divisor;
+    } else {
+      divisor++;
+    }
+  }
+  return factors;
+}
+
+function divisor(num) {
+var divisorsList = [];
+var divisors = (n)=>[...Array(n+1).keys()].slice(1)
+       .reduce((s, a)=>{
+          var divisor = !(n % a) && a;
+          if (divisor) divisorsList.push(divisor);
+        //  return s+divisor;
+       }, 0);
+  divisors(num);
+  return divisorsList;
+}
+module.exports = { toEight, toTwo, days, neutral， isPrime, sRoot, primeFactor, divisor }
