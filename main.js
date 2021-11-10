@@ -7,6 +7,16 @@ const toTwo = mathFunction.toTwo;
 math.toTwo = toTwo;
 const days = mathFunction.days;
 math.days = days;
+const neutral = mathFunction.neutral;
+math.neutral = neutral;
+const isPrime = mathFunction.isPrime;
+math.isPrime = isPrime;
+const sRoot = mathFunction.sRoot;
+math.sRoot = sRoot;
+const primeFactor = mathFunction.primeFactor;
+math.primeFactor = primeFactor;
+const divisor = mathFunction.divisor;
+math.divisor = divisor;
 
 // Utils
 const utilsFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
