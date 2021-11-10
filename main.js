@@ -17,6 +17,18 @@ const primeFactor = mathFunction.primeFactor;
 math.primeFactor = primeFactor;
 const divisor = mathFunction.divisor;
 math.divisor = divisor;
+const kmToM = mathFunction.kmToM;
+math.kmToM = kmToM;
+const mToCm = mathFunction.mToCm;
+math.mToCm = mToCm;
+const cmToMm = mathFunction.cmToMm;
+math.cmToMm = cmToMm;
+const tToKg = mathFunction.tToKg;
+math.tToKg = tToKg;
+const kgToG = mathFunction.kgToG;
+math.kgToG = kgToG;
+const lToMl = mathFunction.lToMl;
+math.lToMl = lToMl;
 
 // Utils
 const utilsFunction = r('https://raw.githubusercontent.com/shortem/functions/main/scripts/utils.js');
