@@ -56,4 +56,29 @@ var divisors = (n)=>[...Array(n+1).keys()].slice(1)
   divisors(num);
   return divisorsList;
 }
-module.exports = { toEight, toTwo, days, neutral, isPrime, sRoot, primeFactor, divisor }
+
+function kmToM(km) {
+  return `${km*1000}m`;
+}
+
+function mToCm(m) {
+  return `${m*100}cm`;
+}
+
+function cmToMm(cm) {
+  return `${cm*10}mm`;
+}
+
+function tToKg(t) {
+  return `${t*1000}kg`;
+}
+
+function kgToG(kg) {
+ return `${kg*1000}g`;
+}
+
+function lToMl(l) {
+ return `${l * 1000}ml`
+}
+
+module.exports = { toEight, toTwo, days, neutral, isPrime, sRoot, primeFactor, divisor, kmToM, mToCm, cmToMm, tToKg, kgToG, lToMl }
