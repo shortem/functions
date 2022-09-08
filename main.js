@@ -37,4 +37,6 @@ utils.math = mathjs;
 const moment = utilsFunction.moment;
 utils.moment = moment;
 utils.bsapi = require('bsapi.js');
+utils.compress = utilsFunction.compress;
+utils.decompress = utilsFunction.decompress;
 
